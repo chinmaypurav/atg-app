@@ -17,4 +17,4 @@ use App\Http\Controllers\ATGController;
 Route::view('/', 'home')->name('home');
 Route::resource('form', ATGController::class)->only([
     'index', 'create', 'store'
-]);;
+]);
